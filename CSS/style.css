@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins', 'sans-serif';
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header {
+width: 100%;
+height: 50px;
+background-color: bisque;
+position: fixed;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 10px 20px;
+z-index: 999;
+}
+.brand{ 
+    font-weight: 800;
+    text-decoration: none;
+    color: brown;
+    font-size: 1.2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+}
+.nav a {
+    font-weight: 600;
+    text-decoration: none;
+    color: brown;
+    padding-left:50px ;
+   
+}
+.nav a:hover{
+    color: black;
+
+}
+section{
+    padding: 100px;
+}
+.main {
+width: 100%;
+min-height: 100vh;
+display: flex;
+align-items: center;
+background: url(../images/IMG_20210515_103625.jpg);
+background-size: cover;
+background-attachment: fixed;
+color: white;
+}
+
+.main h2{
+    font-size: .95em;
+
+}
+ span{
+font-size: 2.7em;
+display: inline-block;
+margin-left: -4px;
+margin-top: 6px;
+margin-bottom: 15px;
+letter-spacing: 2px;
+padding: 3px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+border-radius: 18px;
+background-color: rgba(230, 177, 109, 0.522);
+color:white;
+}
+h3 span{
+    font-size: 1.5em;
+    letter-spacing: 2.3px;
+padding: 3px;
+font-weight: bolder;
+border-radius: 18px;
+background-color: rgba(230, 177, 109, 0.522);
+}
+.main .btn{
+    background-color: rgb(236, 160, 73);
+    padding: .7em 1.5em;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: .85em;
+    border-radius: 18px;
+    display: inline-block;
+    font-weight: 600;
+    transition: .5s;
+    text-decoration: none;color: white;
+}
+.main .btn:hover{
+    background-color: rgba(230, 220, 208, 0.812);
+    color: rgb(238, 132, 12) ;
+    font-weight: 900;
+    transform: scale(1.1);
+
+}
+.social-icons a{
+    color: white;
+    padding-right: 30px;
+    font-size: 1.7em;
+}
+.tittle{
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+    color: rgb(238, 132, 12) ;
+    margin-bottom: 40px;
+    font-weight: 800;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card{
+    width: 20em;
+    padding: 20px;
+    margin: 15px;
+    min-height: 16rem;
+    text-align: center;
+    border-radius: 18px;
+    transition: .8s;
+    color: rgb(238, 132, 12) ;
+    box-shadow: 0 5px 25px rgba(83, 64, 39, 0.61)
+}
+.card h3{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+.card:hover{
+    transform:  translate(-10px, -5px);
+    box-shadow: 0 8px 25px rgba(5, 4, 2, 0.836)
+
+}
+.card .icon{
+    text-align: center;
+    color:rgb(185, 105, 75) ;
+    margin-bottom: 30px;
+    font-size: 5em;
+}
+.new{
+    background-color: rgb(236, 160, 73);
+
+}
+.new h3{
+    color: white !important;
+}
+.new .card{
+    color: white !important;
+}
+.new .tittle{
+    color: white !important;
+
+}
+.image{
+    overflow: hidden;
+    border-radius: 15px;
+    border: 1px white solid;
+}
+img{
+    width: 100%;
+    height: 9em;
+}
